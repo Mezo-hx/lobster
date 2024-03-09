@@ -9,12 +9,12 @@ Basics
 ------
 The basic list of [builtin functions](builtin_functions_reference.html) is worth
 browsing first, as well as the [shooter tutorial](shooter_tutorial.html)
-for some basic explanation of how to render stuff. Most examples in the `samples` dir
+for some basic explanation of how to render stuff. Most examples in the `samples` directory
 are graphical and provide further examples.
 
 While it easy to render stuff with simple functions like `gl.rect`, `gl.line`
-and stuff, for anything more advanced some understanding of OpenGL style
-rendering is required.
+and such, for anything more advanced require some understanding of OpenGL style
+rendering.
 
 Default rendering environment
 ----------------------------
@@ -30,7 +30,7 @@ but more fun is to use a custom shader. You can define these in-line in
 your Lobster program as well, an example of that can be found in
 `samples/custom_shader_metaballs.lobster`.
 
-Lobster uses glsl shaders compatible with OpenGL 3+ and OpenGL ES 3+,
+Lobster uses GLSL shaders compatible with OpenGL 3+ and OpenGL ES 3+,
 and you'll have to look elsewhere to learn the details of this language.
 
 Lobster wraps these shaders in a custom declaration language, to cut down on
